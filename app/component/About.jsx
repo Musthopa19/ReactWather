@@ -3,7 +3,7 @@ var About = React.createClass({
 
     render: function () {
         return (
-            <h3>About vaking </h3>
+            <h3>About vaking  </h3>
         )
     }
 });
