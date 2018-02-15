@@ -3,7 +3,11 @@ var About = React.createClass({
 
     render: function () {
         return (
-            <h3>About vaking Broo Epic.... </h3>
+            <div>
+                <h3>About</h3>
+                <p>Selamat datang di sini</p>
+            </div>
+            
         )
     }
 });
