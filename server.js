@@ -1,6 +1,6 @@
-var express = require('express')
-var app = express()
-const PORT = process.env.PORT || 3000
+var express = require('express');
+var app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(function(req, res, next) {
     if (req.headers['x-forwarded-proto'] === 'https') {
@@ -12,5 +12,5 @@ app.use(function(req, res, next) {
 
 app.use(express.static('public'))
 app.listen(PORT, function() {
-    console.log('Server sudah berjalan ' + PORT)
+    console.log('Server sudah berjalan ' + PORT);
 })
