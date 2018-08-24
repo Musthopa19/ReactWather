@@ -4,7 +4,7 @@ var React = require('react');
         return (
             <div>
                 <h3>About</h3>
-                <p>Selamat datang di sini</p>
+                <p>Selamat datang di bro</p>
             </div>
             
         )
